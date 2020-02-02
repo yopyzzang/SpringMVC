@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Oracle - jdbc:oracle:thin:@localhost:1521/XEPDB1">
+  <database-model serializer="dbm" dbms="ORACLE" family-id="ORACLE" format-version="4.17">
+    <root id="1">
+      <ServerVersion>18.0.0.0.0</ServerVersion>
+    </root>
+    <schema id="2" parent="1" name="ANONYMOUS">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="3" parent="1" name="APPQOSSYS">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="AUDSYS">
+      <ObjectId>8</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="CTXSYS">
+      <ObjectId>82</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="DBSFWUSER">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DBSNMP">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="DIP">
+      <ObjectId>23</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DVF">
+      <ObjectId>98</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="DVSYS">
+      <ObjectId>1279990</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="GGSYS">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="GSMADMIN_INTERNAL">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="GSMCATUSER">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="GSMUSER">
+      <ObjectId>22</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="HR">
+      <ObjectId>102</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="LBACSYS">
+      <ObjectId>96</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="MDDATA">
+      <ObjectId>94</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="MDSYS">
+      <ObjectId>88</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="OJVMSYS">
+      <ObjectId>80</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="OLAPSYS">
+      <ObjectId>91</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="ORACLE_OCM">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="ORDDATA">
+      <ObjectId>85</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="ORDPLUGINS">
+      <ObjectId>86</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="ORDSYS">
+      <ObjectId>84</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="OUTLN">
+      <ObjectId>13</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="PDBADMIN">
+      <ObjectId>101</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <CreatedTimestamp>2019-02-04.13:45:23</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.09:08:44</ModifiedTimestamp>
+    </schema>
+    <schema id="28" parent="1" name="REMOTE_SCHEDULER_AGENT">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>87</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="SYS$UMF">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="32" parent="1" name="SYSBACKUP">
+      <ObjectId>2147483617</ObjectId>
+    </schema>
+    <schema id="33" parent="1" name="SYSDG">
+      <ObjectId>2147483618</ObjectId>
+    </schema>
+    <schema id="34" parent="1" name="SYSKM">
+      <ObjectId>2147483619</ObjectId>
+    </schema>
+    <schema id="35" parent="1" name="SYSRAC">
+      <ObjectId>2147483620</ObjectId>
+    </schema>
+    <schema id="36" parent="1" name="SYSTEM">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="37" parent="1" name="WMSYS">
+      <ObjectId>71</ObjectId>
+    </schema>
+    <schema id="38" parent="1" name="XDB">
+      <ObjectId>61</ObjectId>
+    </schema>
+    <schema id="39" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <schema id="40" parent="1" name="YOPY">
+      <ObjectId>103</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:15:07</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.07:46:25</ModifiedTimestamp>
+      <IntrospectionTimestamp>2020-02-03.08:02:59</IntrospectionTimestamp>
+      <Current>1</Current>
+    </schema>
+    <sequence id="41" parent="40" name="BOARD_SEQ">
+      <ObjectId>73470</ObjectId>
+      <CreatedTimestamp>2020-01-03.09:55:50</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-03.09:55:50</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <sequence id="42" parent="40" name="EXBOARD_SEQ">
+      <ObjectId>74276</ObjectId>
+      <CreatedTimestamp>2020-02-03.07:46:25</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.07:46:25</ModifiedTimestamp>
+      <SequenceIdentity>1..99999</SequenceIdentity>
+      <CacheSize>-2147483648</CacheSize>
+    </sequence>
+    <table id="43" parent="40" name="BOARD">
+      <ObjectId>73468</ObjectId>
+      <CreatedTimestamp>2020-01-03.09:55:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-03.11:17:18</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="44" parent="40" name="EXBOARD">
+      <ObjectId>74274</ObjectId>
+      <CreatedTimestamp>2020-02-03.07:45:25</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.07:45:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="45" parent="40" name="EXUSER">
+      <ObjectId>74266</ObjectId>
+      <CreatedTimestamp>2020-02-03.06:10:51</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.06:10:51</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="46" parent="40" name="MEMBER">
+      <ObjectId>73390</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:15:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.11:15:07</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="47" parent="40" name="STUDENT">
+      <ObjectId>73392</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:19:04</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-31.10:56:24</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="48" parent="40" name="ZIPCODE">
+      <ObjectId>73394</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:48:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.11:48:25</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <column id="49" parent="43" name="NUM">
+      <Position>1</Position>
+      <DataType>NUMBER(7 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="43" name="WRITER">
+      <Position>2</Position>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="43" name="EMAIL">
+      <Position>3</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="52" parent="43" name="SUBJECT">
+      <Position>4</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="53" parent="43" name="PASS">
+      <Position>5</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="54" parent="43" name="READCOUNT">
+      <Position>6</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="55" parent="43" name="REF">
+      <Position>7</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="56" parent="43" name="STEP">
+      <Position>8</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="57" parent="43" name="DEPTH">
+      <Position>9</Position>
+      <DataType>NUMBER(3 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>0</DefaultExpression>
+    </column>
+    <column id="58" parent="43" name="REGDATE">
+      <Position>10</Position>
+      <DataType>TIMESTAMP(6)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>sysdate</DefaultExpression>
+    </column>
+    <column id="59" parent="43" name="CONTENT">
+      <Position>11</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="43" name="IP">
+      <Position>12</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="61" parent="43" name="BOARD_PK">
+      <ObjectId>73469</ObjectId>
+      <CreatedTimestamp>2020-01-03.09:55:00</CreatedTimestamp>
+      <ModifiedTimestamp>2020-01-03.09:55:00</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>NUM</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="43" name="BOARD_PK">
+      <ModifiedTimestamp>2020-01-03.09:55:00</ModifiedTimestamp>
+      <ColNames>NUM</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>BOARD_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="44" name="MESSAGE_ID">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="64" parent="44" name="GUEST_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <DefaultExpression>null</DefaultExpression>
+    </column>
+    <column id="65" parent="44" name="MESSAGE">
+      <Position>3</Position>
+      <DataType>VARCHAR2(4000 byte)|0s</DataType>
+    </column>
+    <column id="66" parent="44" name="REGISTRY_DATE">
+      <Position>4</Position>
+      <DataType>DATE|0s</DataType>
+      <DefaultExpression>null</DefaultExpression>
+    </column>
+    <index id="67" parent="44" name="EXBOARD_PK">
+      <ObjectId>74275</ObjectId>
+      <CreatedTimestamp>2020-02-03.07:45:25</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.07:45:25</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>MESSAGE_ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="68" parent="44" name="EXBOARD_PK">
+      <ModifiedTimestamp>2020-02-03.07:45:25</ModifiedTimestamp>
+      <ColNames>MESSAGE_ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>EXBOARD_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="69" parent="45" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="45" name="PASSWORD">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <column id="71" parent="45" name="NICKNAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+    </column>
+    <index id="72" parent="45" name="SYS_C008125">
+      <ObjectId>74267</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2020-02-03.06:10:51</CreatedTimestamp>
+      <ModifiedTimestamp>2020-02-03.06:10:51</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="73" parent="45" name="SYS_C008125">
+      <NameSurrogate>1</NameSurrogate>
+      <ModifiedTimestamp>2020-02-03.06:10:51</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>SYS_C008125</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="74" parent="46" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="46" name="PW">
+      <Position>2</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="46" name="EMAIL">
+      <Position>3</Position>
+      <DataType>VARCHAR2(40 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="77" parent="46" name="MEMBER_PK">
+      <ObjectId>73391</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:15:07</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.11:15:07</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="78" parent="46" name="MEMBER_PK">
+      <ModifiedTimestamp>2019-12-30.11:15:07</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>MEMBER_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="79" parent="47" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="80" parent="47" name="PASS">
+      <Position>2</Position>
+      <DataType>VARCHAR2(12 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="47" name="NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="82" parent="47" name="PHONE1">
+      <Position>4</Position>
+      <DataType>VARCHAR2(3 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="83" parent="47" name="PHONE2">
+      <Position>5</Position>
+      <DataType>VARCHAR2(4 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="84" parent="47" name="PHONE3">
+      <Position>6</Position>
+      <DataType>VARCHAR2(4 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="85" parent="47" name="EMAIL">
+      <Position>7</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="47" name="ZIPCODE">
+      <Position>8</Position>
+      <DataType>VARCHAR2(7 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="47" name="ADDRESS1">
+      <Position>9</Position>
+      <DataType>VARCHAR2(120 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="47" name="ADDRESS2">
+      <Position>10</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="89" parent="47" name="STUDENT_PK">
+      <ObjectId>73393</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:19:04</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.11:19:04</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>ID</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="47" name="STUDENT_PK">
+      <ModifiedTimestamp>2019-12-30.11:19:04</ModifiedTimestamp>
+      <ColNames>ID</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>STUDENT_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="91" parent="48" name="SEQ">
+      <Position>1</Position>
+      <DataType>NUMBER(5 digit)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="92" parent="48" name="ZIPCODE">
+      <Position>2</Position>
+      <DataType>VARCHAR2(7 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="93" parent="48" name="SIDO">
+      <Position>3</Position>
+      <DataType>VARCHAR2(6 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="94" parent="48" name="GUGUN">
+      <Position>4</Position>
+      <DataType>VARCHAR2(30 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="48" name="DONG">
+      <Position>5</Position>
+      <DataType>VARCHAR2(50 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="48" name="RI">
+      <Position>6</Position>
+      <DataType>VARCHAR2(80 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="97" parent="48" name="BUNJI">
+      <Position>7</Position>
+      <DataType>VARCHAR2(20 byte)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="98" parent="48" name="ZIPCODE_PK">
+      <ObjectId>73395</ObjectId>
+      <CreatedTimestamp>2019-12-30.11:48:25</CreatedTimestamp>
+      <ModifiedTimestamp>2019-12-30.11:48:25</ModifiedTimestamp>
+      <TablespaceName>USERS</TablespaceName>
+      <ColNames>SEQ</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="99" parent="48" name="ZIPCODE_PK">
+      <ModifiedTimestamp>2019-12-30.11:48:25</ModifiedTimestamp>
+      <ColNames>SEQ</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>ZIPCODE_PK</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
