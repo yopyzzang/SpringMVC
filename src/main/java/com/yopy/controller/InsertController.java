@@ -3,14 +3,14 @@ package com.yopy.controller;
 import com.yopy.Model.user.UserDAO;
 import com.yopy.Model.user.UserVO;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.mvc.Controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.UnsupportedEncodingException;
 
 public class InsertController implements Controller {
     @Override
-    public ModelAndView handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
+    public String handleRequest(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws UnsupportedEncodingException {
         System.out.println("아이디 등록");
         httpServletRequest.setCharacterEncoding("UTF-8");
         String id = httpServletRequest.getParameter("id");
@@ -23,6 +23,6 @@ public class InsertController implements Controller {
         vo.setNickname(nickname);
         UserDAO userDAO = new UserDAO();
         userDAO.insert(vo);
-        return null;
+        return "board/board.jsp";
     }
 }

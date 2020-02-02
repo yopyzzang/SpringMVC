@@ -6,7 +6,14 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c2b1cae-65ba-4909-b636-bc286a08920d" name="Default Changelist" comment="" />
+    <list default="true" id="8c2b1cae-65ba-4909-b636-bc286a08920d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yopy/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/presentation-layer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SpringMVC_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/yopy/controller/InsertController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/yopy/controller/InsertController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +36,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
-        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -51,6 +62,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1XCrX0k6b2iLgEGQRtkHBVN11Cx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -208,7 +220,7 @@
       <updated>1580560952774</updated>
       <workItem from="1580560956623" duration="2484000" />
       <workItem from="1580634854222" duration="6921000" />
-      <workItem from="1580650573576" duration="7641000" />
+      <workItem from="1580650573576" duration="8565000" />
     </task>
     <servers />
   </component>
@@ -300,6 +312,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="613" y="530" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.2560.1400@0.0.2560.1400" timestamp="1580562883453" />
+    <state x="1093" y="670" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580662838997">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1093" y="670" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1400@0.0.2560.1400" timestamp="1580662838997" />
     <state x="409" y="436" key="spring file set editor" timestamp="1580659986144">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
